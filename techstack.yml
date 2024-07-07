@@ -1,0 +1,360 @@
+repo_name: ashellwig/Chromecast
+report_id: da3a55def17e4129ff6216e4d3824b5d
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-07T04:25:57+00:00'
+requested_by: Z-AX
+provider: github
+branch: master
+detected_tools_count: 27
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ashellwig/Chromecast
+  detection_source: Repo Metadata
+- name: Electron
+  description: Build cross platform desktop apps with JavaScript, HTML, and CSS
+  website_url: http://electron.atom.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 17:04:22.000000000 Z
+- name: Material Design Lite
+  description: Material Design Lite Components in HTML/CSS/JS
+  website_url: http://www.getmdl.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/3318/default_9180d788d095cc3a5cb0d21aba527ddb424dcf32.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 17:04:22.000000000 Z
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 17:04:22.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 15.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/.babelrc
+  detection_source: ".babelrc"
+  last_updated_by: Dmytro
+  last_updated_on: 2016-02-14 16:45:56.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-02-14 16:45:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashellwig/Chromecast
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 17:04:22.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 17:04:22.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 18:37:49.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-02-14 16:45:56.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ashellwig/Chromecast
+  detection_source: Repo Metadata
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: babel-plugin-transform-class-properties
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/babel-plugin-transform-class-properties
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15928/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: babel-preset-react
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/babel-preset-react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15825/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-02-14 16:45:56.000000000 Z
+- name: electron-packager
+  description: Customize and package your Electron app with OS-specific bundles
+  package_url: https://www.npmjs.com/electron-packager
+  version: 7.7.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17433/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: electron-prebuilt
+  description: Install prebuilt electron binaries for the command-line using npm
+  package_url: https://www.npmjs.com/electron-prebuilt
+  version: 1.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17174/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 18:37:49.000000000 Z
+- name: gulp-babel
+  description: Use next generation JavaScript, today
+  package_url: https://www.npmjs.com/gulp-babel
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15963/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 18:37:49.000000000 Z
+- name: gulp-eslint
+  description: A gulp plugin for processing files with ESLint
+  package_url: https://www.npmjs.com/gulp-eslint
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16009/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-26 18:37:49.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 15.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: react-intl
+  description: Internationalize React apps
+  package_url: https://www.npmjs.com/react-intl
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16566/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: react-tap-event-plugin
+  description: Facebook's TapEventPlugin
+  package_url: https://www.npmjs.com/react-tap-event-plugin
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16764/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-08-27 21:16:22.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ashellwig/Chromecast/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Dmytro
+  last_updated_on: 2016-02-14 16:45:56.000000000 Z
